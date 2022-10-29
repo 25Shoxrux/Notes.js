@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.contaener {
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.TitelBtn {
+    padding-top: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.TitelBtn a {
+    font-family: "Gilroy", sans-serif !important;
+    margin-left: 70px;
+    font-size: 21px;
+    font-weight: 900;
+    color: #A5A5B4;
+}
+
+.active {
+    color: #FFC700 !important;
+}
+
+.text {
+    padding-top: 20px;
+    font-family: "Gilroy", sans-serif !important;
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.TitleText {
+    padding-top: 20px;
+    font-family: "Gilroy", sans-serif !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.info {
+    padding-top: 20px;
+    font-family: "Gilroy", sans-serif !important;
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFC700;
+    display: block;
+}       
+
+.box1,.box2,.box3 {
+    width: 1300px;
+    padding-top: 50px;
+    /* text-align: center; */
+    margin: 0 auto;
+    gap: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;   
+    flex-wrap: wrap;
+    margin-left: -120px;
+
+    justify-content: space-between;
+}
+
+.div {
+    width: 630px;
+    height: 125px;
+    background: #F0F0F0;
+    border-radius: 14px;
+}
+
+.content {
+    width: 570px;
+    margin-top: 20px !important;
+    margin: 0 auto;
+}
+
+.label {
+    display: flex;
+    gap: 20px;
+}
+
+
+.checkbox {
+    display: none;
+
+}
+
+.fake {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+
+}
+
+.fake::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #FFC700;
+    border-radius: 3px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.checkbox:checked+.fake::before {
+    opacity: 1;
+}
+
+.textCheck {
+    font-family: "Gilroy", sans-serif !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+p {
+    font-family: "Gilroy", sans-serif !important;
+    font-size: 16px;
+    color: #A5A5B4;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+
+}
+.timer {
+    font-size: 20px !important;
+    font-family: "Gilroy", sans-serif !important;
+    font-size: 16px;
+    color: #FFC700;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
